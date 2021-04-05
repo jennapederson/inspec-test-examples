@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Example for creating an S3 Bucket with bucket encryption enabled by default
+
+Resources:
+  LogicalID:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: 'inspec-demo-bucket'
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: 'aws:kms'

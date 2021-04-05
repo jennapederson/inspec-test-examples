@@ -1,0 +1,12 @@
+{
+  "db_identifier": {
+    "sensitive": false,
+    "type": "string",
+    "value": "terraform-20210413010711792000000001"
+  },
+  "instance_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "i-05bf8cef505a7ba68"
+  }
+}
